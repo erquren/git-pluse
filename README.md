@@ -26,6 +26,14 @@ git-pluse https://github.com/owner/repo show
 
 This will create both a JSON file (`repo.json`) and a PNG chart (`repo.png`) showing cumulative commits.
 
+
+### Token set to avoid rate limiting
+```bash
+git-pluse --token <your_github_token> https://github.com/owner/repo show
+```
+
+This will use the provided GitHub token for authenticated requests, which is useful for repositories with a large number of commits.
+
 ## Features
 
 - Fetches all commits from a GitHub repository
