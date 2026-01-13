@@ -36,7 +36,7 @@ This will create both a JSON file (`repo.json`) and a PNG chart (`repo.png`) sho
   - ≤ 90 days: weekly ticks
   - ≤ 365 days: monthly ticks
   - ≤ 730 days: bi-monthly ticks
-  - > 730 days: quarterly ticks
+  - \> 730 days: quarterly ticks
 
 ## JSON Output Format
 
